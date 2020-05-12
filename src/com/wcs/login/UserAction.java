@@ -24,7 +24,7 @@ public class UserAction extends ActionSupport{
 				getRequiredWebApplicationContext(ServletActionContext.getServletContext());
 		UserService userService = (UserService) applicationContext.getBean("userService");
 		String ss = "123456";
-		String dd = "2222";
+		String dd = "2222B";
 		String result = userService.login(userName,passWord);
 		
 		return result;
