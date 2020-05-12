@@ -17,7 +17,7 @@ public class UserAction extends ActionSupport{
 		String passWord = ServletActionContext.getRequest().getParameter("passWord");
 		String sss = "";
 		//UserService userService = new UserServiceImpl();
-		
+		dssdfsdfsdfsdfsdfsdfsdf
 //		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		ApplicationContext applicationContext = WebApplicationContextUtils.
